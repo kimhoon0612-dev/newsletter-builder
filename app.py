@@ -17,6 +17,8 @@ ALLOWED = {'png','jpg','jpeg','gif','webp'}
 def allowed(f): return '.' in f and f.rsplit('.',1)[1].lower() in ALLOWED
 
 BASE_DIR = Path(__file__).parent
+# Vercel 서버리스 환경에서는 /tmp만 쓰기 가능
+TMP_DIR = Path('/tmp') if Path('/tmp').exists() else BASE_DIR
 
 # ── Supabase helpers ───────────────────────────────────────────────
 
@@ -46,7 +48,11 @@ def get_nl(nid):
     return r.data
 
 def save_nl(data):
-    sb.table('newsletters').upsert(data).execute()
+    d = dict(data)
+    # Supabase는 JSONB 컬럼에 Python list/dict를 직렬화해서 저장
+    if isinstance(d.get('sections'), list):
+        d['sections'] = json.dumps(d['sections'], ensure_ascii=False)
+    sb.table('newsletters').upsert(d).execute()
 
 def del_nl(nid):
     nl = get_nl(nid)
@@ -72,8 +78,9 @@ def api_list():
 
 @app.route('/api/newsletters', methods=['POST'])
 def api_create():
+    body = request.get_json(force=True, silent=True) or {}
     nid = str(uuid.uuid4()); now = datetime.utcnow().isoformat()
-    nl = {'id':nid,'title':request.json.get('title','새 뉴스레터'),
+    nl = {'id':nid,'title':body.get('title','새 뉴스레터'),
           'status':'draft','sections':[],'created_at':now,'updated_at':now}
     save_nl(nl); return jsonify(nl), 201
 
@@ -84,7 +91,7 @@ def api_nl(nid):
     if request.method == 'GET':
         return jsonify(nl)
     elif request.method == 'PUT':
-        data = request.json
+        data = request.get_json(force=True, silent=True) or {}
         nl.update({'title':data.get('title',nl['title']),
                    'sections':data.get('sections',nl['sections']),
                    'status':data.get('status',nl.get('status','draft')),
@@ -122,13 +129,15 @@ def api_dup(nid):
 def api_status(nid):
     nl = get_nl(nid)
     if not nl: return jsonify({'error':'Not found'}), 404
-    nl['status'] = request.json.get('status','draft')
+    body = request.get_json(force=True, silent=True) or {}
+    nl['status'] = body.get('status','draft')
     nl['updated_at'] = datetime.utcnow().isoformat()
     save_nl(nl); return jsonify(nl)
 
 @app.route('/api/generate-image', methods=['POST'])
 def api_gen():
-    prompt = request.json.get('prompt','').strip()
+    body = request.get_json(force=True, silent=True) or {}
+    prompt = body.get('prompt','').strip()
     if not prompt: return jsonify({'error':'프롬프트를 입력해주세요'}), 400
     try:
         from google import genai
@@ -166,9 +175,10 @@ def api_export(nid):
     nl = get_nl(nid)
     if not nl: return jsonify({'error':'Not found'}), 404
     html = build_html(nl)
-    out = BASE_DIR / f"export_{nid[:6]}.html"
+    # Vercel 서버리스 환경에서는 /tmp에만 쓰기 가능
+    out = TMP_DIR / f"export_{nid[:6]}.html"
     out.write_text(html, 'utf-8')
-    return send_file(out, as_attachment=True,
+    return send_file(str(out), as_attachment=True,
                      download_name=f"newsletter_{nid[:6]}.html", mimetype='text/html')
 
 @app.route('/api/newsletters/<nid>/preview')

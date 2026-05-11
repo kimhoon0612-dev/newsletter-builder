@@ -252,7 +252,7 @@ async function doUpload(e){
   toast('업로드 중...');e.target.value='';
   const d=await upload(f);
   if(d.error){toast('실패: '+d.error,'err');return;}
-  secs.push({image_filename:d.filename,click_url:'',alt_text:''});
+  secs.push({image_url:d.image_url||d.url,click_url:'',alt_text:''});
   renderSecs();renderPrev();setSaved(false);toast('이미지 추가됨 ✅','ok');
 }
 function showAI(){document.getElementById('ai-modal').classList.add('show');}
