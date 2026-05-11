@@ -1,0 +1,19 @@
+# 데이터 폴더 (로컬 전용)
+data/
+*.json
+
+# 임시 내보내기 파일
+export_*.html
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# 임포트 스크립트
+import_isls.py
+write_admin.py
+
+# 기존 뉴스레터 템플릿 (별도 관리)
+newsletter.html

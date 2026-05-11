@@ -1,0 +1,307 @@
+X-Received-IP-1: 10.4.103.10
+X-Received-IP-SPF: softfail (10.4.103.116: transitioning SPF record at _spf04.hiworks.co.kr does not designate 10.4.103.10 as permitted sender)
+X-DKIM-RESULT: none (message not signed)
+X-SpamStatus: Non-Spam
+Received: from unknown (HELO hi-total-node5) (10.4.103.10)
+	by 10.4.103.116 with ESMTP; 6 May 2026 11:15:30 +0900
+X-Original-SENDERIP: 10.4.103.10
+X-Original-SENDERCOUNTRY: unknown
+X-Original-MAILFROM: isls@isls-society.org
+X-Authinfo: HIWORKS SMTP authenticated <isls@isls-society.org|121.170.193.229|isls@isls-society.org|260506111530_6312342576>
+X-Hiworks-Remote-IP: 121.170.193.229
+X-Hiworks-User: (SASL_USER) isls@isls-society.org
+X-MailFrom-INFO: <country_code:KR|rbl_level:0>
+Received: from ADMIN (unknown [121.170.193.229])
+	(Authenticated sender: isls@isls-society.org)
+	by hi-total-node5 (Postfix) with ESMTPSA id 4g9JrK73HrzSqYcS
+	for <hkim@oneitm.com>; Wed,  6 May 2026 11:15:29 +0900 (KST)
+From: <isls@isls-society.org>
+To: <hkim@oneitm.com>
+References: <M1DT2N88HSU4.ZJOAS9B0NTLQ3@ds9>
+In-Reply-To: <M1DT2N88HSU4.ZJOAS9B0NTLQ3@ds9>
+Subject: FW: **ISLS 2025 Toronto VODs are available only to ISLS Members**
+Date: Wed, 6 May 2026 11:15:29 +0900
+Message-ID: <000001dcdcfe$35f2c9e0$a1d85da0$@isls-society.org>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0001_01DCDD49.A5DCE2E0"
+X-Mailer: Microsoft Outlook 16.0
+Thread-Index: ATMwT1VOBGhWcBVXoME/q/1fG9odDdNZXH4A
+Content-Language: ko
+
+This is a multipart message in MIME format.
+
+------=_NextPart_000_0001_01DCDD49.A5DCE2E0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: base64
+
+64yA7ZGc64uYfg0KDQogDQoNCklTTFMg64m07Iqk66CI7YSwIOyDmO2UjCDrs7TrgrTsmpQuDQoN
+CiANCg0K66eo7JyEIOyDgeuLqCAvIOunqCDtlZjri6gg4oCTIOqzoOyglQ0KDQrspJHqsIQg7L2Y
+7YWQ7LigIOygnOuqqeqzvCDrgrTsmqnsnbQg67O07Ya1IDR+NSDqvK3sp4Ag67Cc7IOdDQoNCuyg
+nOuqqSDrlJTsnpDsnbgg7J6h7JWEIOuGk+qzoCwg7L2Y7YWQ7Lig7JmAIOyCrOynhCDqtazshLHt
+lZjqsbDrgpgNCg0K7KCc66qpIOuUlOyekOyduCArIOydtOuvuOyngCDqtazshLHtlZjqsbDrgpgN
+Cg0KIA0KDQrsg4Ev7ZWY64uoIOygnOyZuO2VmOqzoCDrgrTqsIAg7L2Y7YWQ7Lig7JmAIOydtOuv
+uOyngCDrsJjsmIHtlbTshJwg64m066CIIOydtOuvuOyngCDsmYTshLHtlZjqs6AsDQoNCu2VtOuL
+uSDsvZjthZDsuKAg64iE66W066m0IOunge2BrCDsl7DqsrDrkJjrqbQg7KKL7Iq164uI64ukLg0K
+DQogDQoNCkZyb206IElTTFMgT2ZmaWNlIDxpc2xzQGlzbHMtc29jaWV0eS5vcmc+IA0KU2VudDog
+V2VkbmVzZGF5LCBGZWJydWFyeSAxMSwgMjAyNiAyOjM4IFBNDQpUbzogaXNsc0Bpc2xzLXNvY2ll
+dHkub3JnDQpTdWJqZWN0OiAqKklTTFMgMjAyNSBUb3JvbnRvIFZPRHMgYXJlIGF2YWlsYWJsZSBv
+bmx5IHRvIElTTFMgTWVtYmVycyoqDQoNCiANCg0KDQogIDxodHRwczovL2RpcmVjdHNlbmQuY28u
+a3IvaW5kZXgucGhwL21haWxfcmVwb3J0X2FwaS9vcGVuL1ZUYzFNakV6TncvMjAyNjAyLzExL2lz
+bHNAaXNscy1zb2NpZXR5Lm9yZy8yMzI3OT4gDQoNCg0KDQoNCiA8aHR0cHM6Ly9kaXJlY3RzZW5k
+LmNvLmtyL2luZGV4LnBocC9tYWlsX3JlcG9ydF9hcGkvY2xpY2svVlRjMU1qRXpOdy8yMDI2MDIv
+MTEvMC9pc2xzQGlzbHMtc29jaWV0eS5vcmcvMzgvMjMyNzk+IA0KDQoNCiA8aHR0cHM6Ly9kaXJl
+Y3RzZW5kLmNvLmtyL2luZGV4LnBocC9tYWlsX3JlcG9ydF9hcGkvY2xpY2svVlRjMU1qRXpOdy8y
+MDI2MDIvMTEvMC9pc2xzQGlzbHMtc29jaWV0eS5vcmcvNDEvMjMyNzk+IA0KDQoNCiA8aHR0cHM6
+Ly9kaXJlY3RzZW5kLmNvLmtyL2luZGV4LnBocC9tYWlsX3JlcG9ydF9hcGkvY2xpY2svVlRjMU1q
+RXpOdy8yMDI2MDIvMTEvMC9pc2xzQGlzbHMtc29jaWV0eS5vcmcvNDQvMjMyNzk+IA0KDQoNCiA8
+aHR0cHM6Ly9kaXJlY3RzZW5kLmNvLmtyL2luZGV4LnBocC9tYWlsX3JlcG9ydF9hcGkvY2xpY2sv
+VlRjMU1qRXpOdy8yMDI2MDIvMTEvMC9pc2xzQGlzbHMtc29jaWV0eS5vcmcvNDcvMjMyNzk+IA0K
+DQoNCiAgPGh0dHBzOi8vd3d3LmlzbHMtbGl2ZXJzdXJnZW9uLm9yZy9uZXdzbGV0dGVyL2ltYWdl
+cy8yMDI2L2lzbHMwMV8wNV92Mi5qcGc+IA0KDQoNCiA8aHR0cHM6Ly9kaXJlY3RzZW5kLmNvLmty
+L2luZGV4LnBocC9tYWlsX3JlcG9ydF9hcGkvY2xpY2svVlRjMU1qRXpOdy8yMDI2MDIvMTEvMC9p
+c2xzQGlzbHMtc29jaWV0eS5vcmcvMzgvMjMyNzk+IA0KDQoNCg0K67O466mU7J287J2AIDIwMjYt
+MDItMTEgMTQ6Mzg6MDYg6riw7KSALCDtmozsm5Dri5jsnZgg7IiY7Iug64+Z7J2YIOyXrOu2gOul
+vCDtmZXsnbjtlZwg6rKw6rO8IO2ajOybkOuLmOq7mOyEnCDsiJjsi6Drj5nsnZjrpbwg7ZWY7IWo
+6riw7JeQIOuwnOyGoeuQmOyXiOyKteuLiOuLpC4NCuuplOydvCDsiJjsi6DsnYQg7JuQ7LmYIOyV
+iuycvOyLnOuptCDsnbTrqZTsnbwg7ZqM7IugIOuwlOuejeuLiOuLpC4gSWYgeW91IGRvbid0IHdh
+bnQgdGhpcyB0eXBlIG9mIGluZm9ybWF0aW9uIG9yIGUtbWFpbCwgcGxlYXNlIHNlbmQgYW4gZW1h
+aWwgdG8gaXNsc0Bpc2xzLXNvY2lldHkub3JnIDxtYWlsdG86aXNsc0Bpc2xzLXNvY2lldHkub3Jn
+PiAuIA0KDQoNCuuwnOyGoeyekOuqhSjsl4XssrTrqoUpOiBJbnRlcm5hdGlvbmFsIFNvY2lldHkg
+b2YgTGl2ZXIgU3VyZ2VvbnMgKElTTFMpIE9mZmljZQ0KRW1haWw6IGlzbHNAaXNscy1zb2NpZXR5
+Lm9yZyA8bWFpbHRvOmlzbHNAaXNscy1zb2NpZXR5Lm9yZz4gIA0KDQogDQoNCg==
+
+------=_NextPart_000_0001_01DCDD49.A5DCE2E0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" =
+xmlns:o=3D"urn:schemas-microsoft-com:office:office" =
+xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" =
+xmlns=3D"http://www.w3.org/TR/REC-html40"><head><meta =
+http-equiv=3DContent-Type content=3D"text/html; charset=3Dutf-8"><meta =
+name=3DGenerator content=3D"Microsoft Word 15 (filtered medium)"><!--[if =
+!mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:=EA=B5=B4=EB=A6=BC;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	panose-1:2 11 5 3 2 0 0 2 0 4;}
+@font-face
+	{font-family:"\@=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";}
+@font-face
+	{font-family:"\@=EA=B5=B4=EB=A6=BC";
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	font-size:12.0pt;
+	font-family:=EA=B5=B4=EB=A6=BC;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+span.EmailStyle21
+	{mso-style-type:personal-compose;
+	font-family:"=EB=A7=91=EC=9D=80 =EA=B3=A0=EB=94=95";
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:3.0cm 72.0pt 72.0pt 72.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]--></head><body lang=3DKO link=3Dblue =
+vlink=3Dpurple style=3D'word-wrap:break-word'><div =
+class=3DWordSection1><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span =
+style=3D'font-size:11.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95"'>=EB=8C=80=ED=91=9C=EB=8B=98<span =
+lang=3DEN-US>~<o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95"'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95"'>ISLS </span><span =
+style=3D'font-size:11.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95"'>=EB=89=B4=EC=8A=A4=EB=A0=88=ED=84=B0 =
+=EC=83=98=ED=94=8C =EB=B3=B4=EB=82=B4=EC=9A=94<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95"'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span =
+style=3D'font-size:11.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95"'>=EB=A7=A8=EC=9C=84 =EC=83=81=EB=8B=A8<span =
+lang=3DEN-US> / </span>=EB=A7=A8 =ED=95=98=EB=8B=A8 <span =
+lang=3DEN-US>=E2=80=93 </span>=EA=B3=A0=EC=A0=95<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span =
+style=3D'font-size:11.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95"'>=EC=A4=91=EA=B0=84 =EC=BD=98=ED=85=90=EC=B8=A0 =
+=EC=A0=9C=EB=AA=A9=EA=B3=BC =EB=82=B4=EC=9A=A9=EC=9D=B4 =
+=EB=B3=B4=ED=86=B5<span lang=3DEN-US> 4~5 </span>=EA=BC=AD=EC=A7=80 =
+=EB=B0=9C=EC=83=9D<span lang=3DEN-US><o:p></o:p></span></span></p><p =
+class=3DMsoNormal style=3D'word-break:break-hangul'><span =
+style=3D'font-size:11.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95"'>=EC=A0=9C=EB=AA=A9 =EB=94=94=EC=9E=90=EC=9D=B8 =
+=EC=9E=A1=EC=95=84 =EB=86=93=EA=B3=A0<span lang=3DEN-US>, =
+</span>=EC=BD=98=ED=85=90=EC=B8=A0=EC=99=80 =EC=82=AC=EC=A7=84 =
+=EA=B5=AC=EC=84=B1=ED=95=98=EA=B1=B0=EB=82=98<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span =
+style=3D'font-size:11.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95"'>=EC=A0=9C=EB=AA=A9 =EB=94=94=EC=9E=90=EC=9D=B8<span =
+lang=3DEN-US> + </span>=EC=9D=B4=EB=AF=B8=EC=A7=80 =
+=EA=B5=AC=EC=84=B1=ED=95=98=EA=B1=B0=EB=82=98<span =
+lang=3DEN-US><o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95"'><o:p>&nbsp;</o:p></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span =
+style=3D'font-size:11.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95"'>=EC=83=81<span =
+lang=3DEN-US>/</span>=ED=95=98=EB=8B=A8 =
+=EC=A0=9C=EC=99=B8=ED=95=98=EA=B3=A0 =EB=82=B4=EA=B0=80 =
+=EC=BD=98=ED=85=90=EC=B8=A0=EC=99=80 =EC=9D=B4=EB=AF=B8=EC=A7=80 =
+=EB=B0=98=EC=98=81=ED=95=B4=EC=84=9C =EB=89=B4=EB=A0=88 =
+=EC=9D=B4=EB=AF=B8=EC=A7=80 =EC=99=84=EC=84=B1=ED=95=98=EA=B3=A0<span =
+lang=3DEN-US>,<o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span =
+style=3D'font-size:11.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95"'>=ED=95=B4=EB=8B=B9 =EC=BD=98=ED=85=90=EC=B8=A0 =
+=EB=88=84=EB=A5=B4=EB=A9=B4 =EB=A7=81=ED=81=AC =
+=EC=97=B0=EA=B2=B0=EB=90=98=EB=A9=B4 =
+=EC=A2=8B=EC=8A=B5=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<o:p></o:p></span></span></p><p class=3DMsoNormal =
+style=3D'word-break:break-hangul'><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95"'><o:p>&nbsp;</o:p></span></p><div =
+style=3D'border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm'><p class=3DMsoNormal><b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'>From:</span><=
+/b><span lang=3DEN-US =
+style=3D'font-size:11.0pt;font-family:"Calibri",sans-serif'> ISLS Office =
+&lt;isls@isls-society.org&gt; <br><b>Sent:</b> Wednesday, February 11, =
+2026 2:38 PM<br><b>To:</b> isls@isls-society.org<br><b>Subject:</b> =
+**ISLS 2025 Toronto VODs are available only to ISLS =
+Members**<o:p></o:p></span></p></div><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p><table class=3DMsoNormalTable =
+border=3D0 cellspacing=3D0 cellpadding=3D0 width=3D"100%" =
+style=3D'width:100.0%'><tr><td style=3D'padding:3.75pt 0cm 11.25pt =
+0cm'><div id=3D"ds_box"><p class=3DMsoNormal><span lang=3DEN-US =
+style=3D'font-size:9.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#666666'><img id=3D"_x0000_i1031" =
+src=3D"https://directsend.co.kr/index.php/mail_report_api/open/VTc1MjEzNw=
+/202602/11/isls@isls-society.org/23279"></span><span lang=3DEN-US =
+style=3D'font-size:9.0pt;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#666666'><o:p></o:p></span></p><div><table =
+class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+align=3Dleft width=3D800 style=3D'width:600.0pt'><tr><td =
+style=3D'padding:0cm 0cm 0cm 0cm'><table class=3DMsoNormalTable =
+border=3D0 cellspacing=3D0 cellpadding=3D0 =
+style=3D'max-width:600.0pt;min-height:100%;-webkit-box-sizing:border-box;=
+-moz-box-sizing:border-box;box-sizing:border-box'><tr><td =
+style=3D'border:none;border-bottom:solid #E1E1E1 1.0pt;padding:0cm 0cm =
+15.0pt 0cm'><table class=3DMsoNormalTable border=3D0 cellspacing=3D0 =
+cellpadding=3D0><tr><td style=3D'padding:0cm 0cm 0cm 0cm'><p =
+class=3DMsoNormal><span lang=3DEN-US><a =
+href=3D"https://directsend.co.kr/index.php/mail_report_api/click/VTc1MjEz=
+Nw/202602/11/0/isls@isls-society.org/38/23279" target=3D"_blank"><span =
+style=3D'text-decoration:none'><img border=3D0 width=3D650 height=3D190 =
+style=3D'width:6.775in;height:1.9833in' id=3D"_x0000_i1030" =
+src=3D"https://www.isls-liversurgeon.org/newsletter/images/2026/isls01_01=
+.jpg"></span></a><o:p></o:p></span></p></td></tr><tr><td =
+style=3D'padding:0cm 0cm 0cm 0cm'><p class=3DMsoNormal><span =
+lang=3DEN-US><a =
+href=3D"https://directsend.co.kr/index.php/mail_report_api/click/VTc1MjEz=
+Nw/202602/11/0/isls@isls-society.org/41/23279" target=3D"_blank"><span =
+style=3D'text-decoration:none'><img border=3D0 width=3D650 height=3D551 =
+style=3D'width:6.775in;height:5.7416in' id=3D"_x0000_i1029" =
+src=3D"https://www.isls-liversurgeon.org/newsletter/images/2026/isls01_02=
+_v2.jpg"></span></a><o:p></o:p></span></p></td></tr><tr><td =
+style=3D'padding:0cm 0cm 0cm 0cm'><p class=3DMsoNormal><span =
+lang=3DEN-US><a =
+href=3D"https://directsend.co.kr/index.php/mail_report_api/click/VTc1MjEz=
+Nw/202602/11/0/isls@isls-society.org/44/23279" target=3D"_blank"><span =
+style=3D'text-decoration:none'><img border=3D0 width=3D650 height=3D620 =
+style=3D'width:6.775in;height:6.4583in' id=3D"_x0000_i1028" =
+src=3D"https://www.isls-liversurgeon.org/newsletter/images/2026/isls01_03=
+_v2.jpg"></span></a><o:p></o:p></span></p></td></tr><tr><td =
+style=3D'padding:0cm 0cm 0cm 0cm'><p class=3DMsoNormal><span =
+lang=3DEN-US><a =
+href=3D"https://directsend.co.kr/index.php/mail_report_api/click/VTc1MjEz=
+Nw/202602/11/0/isls@isls-society.org/47/23279" target=3D"_blank"><span =
+style=3D'text-decoration:none'><img border=3D0 width=3D650 height=3D464 =
+style=3D'width:6.775in;height:4.8333in' id=3D"_x0000_i1027" =
+src=3D"https://www.isls-liversurgeon.org/newsletter/images/2026/isls01_04=
+_v2.jpg"></span></a><o:p></o:p></span></p></td></tr><tr><td =
+style=3D'padding:0cm 0cm 0cm 0cm'><p class=3DMsoNormal><span =
+lang=3DEN-US><img border=3D0 width=3D650 height=3D812 =
+style=3D'width:6.775in;height:8.4583in' id=3D"_x0000_i1026" =
+src=3D"https://www.isls-liversurgeon.org/newsletter/images/2026/isls01_05=
+_v2.jpg"><o:p></o:p></span></p></td></tr><tr><td style=3D'padding:0cm =
+0cm 0cm 0cm'><p class=3DMsoNormal><span lang=3DEN-US><a =
+href=3D"https://directsend.co.kr/index.php/mail_report_api/click/VTc1MjEz=
+Nw/202602/11/0/isls@isls-society.org/38/23279" target=3D"_blank"><span =
+style=3D'text-decoration:none'><img border=3D0 width=3D650 height=3D133 =
+style=3D'width:6.775in;height:1.3833in' id=3D"_x0000_i1025" =
+src=3D"https://www.isls-liversurgeon.org/newsletter/images/2026/isls01_06=
+.jpg"></span></a><o:p></o:p></span></p></td></tr></table></td></tr><tr><t=
+d style=3D'padding:7.5pt 7.5pt 7.5pt 7.5pt'><div align=3Dcenter><table =
+class=3DMsoNormalTable border=3D0 cellspacing=3D0 cellpadding=3D0 =
+width=3D"100%" =
+style=3D'width:100.0%;-webkit-box-sizing:border-box;-moz-box-sizing:borde=
+r-box;box-sizing:border-box'><tr><td style=3D'padding:7.5pt 0cm 7.5pt =
+0cm'><p class=3DMsoNormal style=3D'line-height:80%'><span =
+style=3D'font-size:9.0pt;line-height:80%;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#999999'>=EB=B3=B8=EB=A9=94=EC=9D=BC=EC=9D=80<s=
+pan lang=3DEN-US> 2026-02-11 14:38:06 </span>=EA=B8=B0=EC=A4=80<span =
+lang=3DEN-US>, </span>=ED=9A=8C=EC=9B=90=EB=8B=98=EC=9D=98 =
+=EC=88=98=EC=8B=A0=EB=8F=99=EC=9D=98 =EC=97=AC=EB=B6=80=EB=A5=BC =
+=ED=99=95=EC=9D=B8=ED=95=9C =EA=B2=B0=EA=B3=BC =
+=ED=9A=8C=EC=9B=90=EB=8B=98=EA=BB=98=EC=84=9C =
+=EC=88=98=EC=8B=A0=EB=8F=99=EC=9D=98=EB=A5=BC =
+=ED=95=98=EC=85=A8=EA=B8=B0=EC=97=90 =
+=EB=B0=9C=EC=86=A1=EB=90=98=EC=97=88=EC=8A=B5=EB=8B=88=EB=8B=A4<span =
+lang=3DEN-US>.<br></span>=EB=A9=94=EC=9D=BC =EC=88=98=EC=8B=A0=EC=9D=84 =
+=EC=9B=90=EC=B9=98 =EC=95=8A=EC=9C=BC=EC=8B=9C=EB=A9=B4 =
+=EC=9D=B4=EB=A9=94=EC=9D=BC =ED=9A=8C=EC=8B=A0 =
+=EB=B0=94=EB=9E=8D=EB=8B=88=EB=8B=A4<span lang=3DEN-US>. If you don't =
+want this type of information or e-mail, please send an email to <a =
+href=3D"mailto:isls@isls-society.org">isls@isls-society.org</a>. =
+<o:p></o:p></span></span></p></td></tr><tr><td style=3D'padding:0cm 0cm =
+0cm 0cm'><p class=3DMsoNormal style=3D'line-height:80%'><span =
+style=3D'font-size:9.0pt;line-height:80%;font-family:"=EB=A7=91=EC=9D=80 =
+=EA=B3=A0=EB=94=95";color:#666666'>=EB=B0=9C=EC=86=A1=EC=9E=90=EB=AA=85<s=
+pan lang=3DEN-US>(</span>=EC=97=85=EC=B2=B4=EB=AA=85<span =
+lang=3DEN-US>): International Society of Liver Surgeons (ISLS) =
+Office<br>Email: <a =
+href=3D"mailto:isls@isls-society.org">isls@isls-society.org</a> =
+<o:p></o:p></span></span></p></td></tr></table></div></td></tr></table></=
+td></tr></table></div></div></td></tr></table><p class=3DMsoNormal><span =
+lang=3DEN-US><o:p>&nbsp;</o:p></span></p></div></body></html>
+------=_NextPart_000_0001_01DCDD49.A5DCE2E0--
+
