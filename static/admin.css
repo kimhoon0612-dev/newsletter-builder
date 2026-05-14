@@ -1,11 +1,17 @@
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Inter',sans-serif;background:#0A0F1E;color:#E2E8F0;display:flex;height:100vh;overflow:hidden}
 
+/* ── Auth Screen ── */
+#auth-screen{display:flex;align-items:center;justify-content:center;width:100%;height:100vh;background:#0A0F1E}
+.auth-card{background:#141B2D;border:1.5px solid rgba(255,255,255,.1);border-radius:18px;padding:40px;width:380px;text-align:center;box-shadow:0 12px 40px rgba(0,0,0,.4)}
+.auth-icon{font-size:48px;margin-bottom:16px}
+.auth-card h2{font-size:18px;font-weight:700;color:#fff;margin-bottom:6px}
+.auth-card p{font-size:13px;color:#64748B;margin-bottom:20px}
+
 /* ── ONE MICE Logo ── */
 .onemice-logo{display:flex;align-items:center;gap:0;font-size:20px;font-weight:800;letter-spacing:-0.5px;user-select:none}
 .onemice-one{color:#ffffff;font-style:italic}
 .onemice-mice{background:linear-gradient(135deg,#3B82F6,#8B5CF6);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;font-style:italic;margin-left:4px}
-
 
 /* ── Sidebar ── */
 #sidebar{width:260px;background:#0F1629;border-right:1px solid rgba(255,255,255,.08);display:flex;flex-direction:column;flex-shrink:0;height:100vh}
@@ -21,6 +27,7 @@ body{font-family:'Inter',sans-serif;background:#0A0F1E;color:#E2E8F0;display:fle
 .nav-sep{height:1px;background:rgba(255,255,255,.1);margin:8px 10px}
 .nav-item.new-btn{background:#2563EB;color:#fff;border-color:#3B82F6;margin:8px 10px;width:calc(100% - 20px);border-radius:8px;justify-content:center}
 .nav-item.new-btn:hover{background:#1D4ED8;border-color:#60A5FA;box-shadow:0 0 0 3px rgba(59,130,246,.2)}
+.sidebar-footer{padding:10px;border-top:1px solid rgba(255,255,255,.08);margin-top:auto}
 
 /* Sidebar newsletter mini-list */
 .sb-nl-list{flex:1;overflow-y:auto;padding:0 10px 10px}
@@ -92,6 +99,17 @@ body{font-family:'Inter',sans-serif;background:#0A0F1E;color:#E2E8F0;display:fle
 .new-card{background:#141B2D;border:1px solid rgba(255,255,255,.1);border-radius:16px;padding:32px;width:460px}
 .new-card h2{font-size:18px;font-weight:600;color:#fff;margin-bottom:6px}
 .new-card p{font-size:13px;color:#64748B;margin-bottom:20px}
+
+/* New card options */
+.new-card-opt{background:#141B2D;border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:24px;cursor:pointer;transition:.2s}
+.new-card-opt:hover{border-color:#3B82F6;background:#161E30}
+.tpl-card{border-color:rgba(16,185,129,.3);background:rgba(16,185,129,.05)}
+.tpl-card:hover{border-color:#10B981;background:rgba(16,185,129,.12)}
+
+/* Picker items */
+.picker-item{display:flex;align-items:center;gap:12px;padding:12px;background:#0A0F1E;border:1px solid rgba(255,255,255,.08);border-radius:9px;cursor:pointer;transition:.15s}
+.picker-item:hover{border-color:#8B5CF6}
+.tpl-highlight:hover{border-color:#10B981}
 
 /* ── Common Buttons ── */
 .btn{padding:7px 14px;border-radius:7px;cursor:pointer;font-family:'Inter',sans-serif;font-size:13px;font-weight:500;transition:.15s;border:1.5px solid transparent;display:inline-flex;align-items:center;gap:5px}
