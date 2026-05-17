@@ -1,5 +1,5 @@
 from flask import Flask, jsonify, request, send_from_directory, send_file
-import json, os, uuid, traceback, io, re, email, ipaddress, copy
+import json, os, uuid, traceback, io, re, email, ipaddress, copy, html as html_mod
 from datetime import datetime, timezone
 from pathlib import Path
 from email import policy
@@ -91,8 +91,7 @@ def get_nl(nid):
 def save_nl(data):
     _check_sb()
     d = dict(data)
-    if isinstance(d.get('sections'), list):
-        d['sections'] = json.dumps(d['sections'], ensure_ascii=False)
+    # sections는 list 그대로 전달 — Supabase JSONB가 자동 처리
     sb.table('newsletters').upsert(d).execute()
 
 def del_nl(nid):
@@ -110,10 +109,6 @@ def del_nl(nid):
 
 def upload_img(file_bytes, fname, mime):
     _check_sb()
-    try:
-        sb.storage.from_('uploads').remove([fname])
-    except Exception:
-        pass
     sb.storage.from_('uploads').upload(
         fname, file_bytes,
         file_options={'content-type': mime, 'upsert': 'true'}
@@ -125,16 +120,18 @@ def resize_image(img_bytes, max_width=650):
     try:
         from PIL import Image
         img = Image.open(io.BytesIO(img_bytes))
+        original_fmt = img.format or 'PNG'  # resize 전에 포맷 저장
         if img.width > max_width:
             ratio = max_width / img.width
             new_h = int(img.height * ratio)
             img = img.resize((max_width, new_h), Image.LANCZOS)
         buf = io.BytesIO()
-        fmt = img.format or 'PNG'
-        if fmt.upper() == 'JPEG':
+        if original_fmt.upper() in ('JPEG', 'JPG'):
+            if img.mode in ('RGBA', 'P'):
+                img = img.convert('RGB')
             img.save(buf, 'JPEG', quality=85, optimize=True)
         else:
-            img.save(buf, fmt, optimize=True)
+            img.save(buf, original_fmt, optimize=True)
         return buf.getvalue()
     except Exception:
         return img_bytes
@@ -170,6 +167,8 @@ def _is_safe_url(url):
 def handle_error(e):
     """글로벌 에러 핸들러 — JSON 형태로 에러 응답 반환"""
     code = getattr(e, 'code', 500)
+    if not isinstance(code, int):
+        code = 500
     return jsonify({'error': str(e), 'type': type(e).__name__}), code
 
 @app.route('/api/newsletters')
@@ -488,9 +487,9 @@ def build_html(nl):
     """이메일 클라이언트 호환 테이블 기반 HTML 생성"""
     rows = []
     for s in nl.get('sections', []):
-        img_url = s.get('image_url', '')
-        url = s.get('click_url', '').strip()
-        alt = s.get('alt_text', 'Newsletter Image')
+        img_url = html_mod.escape(s.get('image_url', ''), quote=True)
+        url = html_mod.escape(s.get('click_url', '').strip(), quote=True)
+        alt = html_mod.escape(s.get('alt_text', 'Newsletter Image'), quote=True)
         img_tag = (f'<img src="{img_url}" alt="{alt}" '
                    f'style="display:block;width:100%;max-width:650px;height:auto;border:0;outline:none" '
                    f'width="650">')

@@ -1,6 +1,7 @@
 # 데이터 폴더 (로컬 전용)
 data/
-*.json
+data/*.json
+!vercel.json
 
 # 임시 내보내기 파일
 export_*.html
@@ -17,3 +18,8 @@ write_admin.py
 
 # 기존 뉴스레터 템플릿 (별도 관리)
 newsletter.html
+
+# 디버그/테스트 파일
+debug_*.py
+debug_*.html
+test_*.py

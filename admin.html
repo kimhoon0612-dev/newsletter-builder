@@ -32,7 +32,7 @@
     <button class="nav-item active" data-view="list" onclick="showView('list');loadAll()">
       <span class="ico">📋</span> 저장된 뉴스레터
     </button>
-    <button class="nav-item" data-view="editor" onclick="showView('editor')">
+    <button class="nav-item" data-view="editor" onclick="if(!curNL){toast('먼저 뉴스레터를 선택해주세요');return;}showView('editor')">
       <span class="ico">✏️</span> 편집기
     </button>
     <div class="nav-sep"></div>
